@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+#card{
+    box-shadow: 0 4px 8px 0 pink;
+    transition: 0.3s;
+    width: 200px;
+}
+
+#card:hover{
+    box-shadow: 0 8px 16px 0 pink; 
+      
+}
+
+img{
+    width: 100%;
+
+}
+
+#container{
+    padding: 2px 16px;
+}
+
+nav{
+    background-color: black;
+    overflow: hidden;
+    color: pink;
+}
+ul{
+    list-style-type: none;
+}
+#navLi{
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+#navLi:nth-child(2){
+    margin-left: 100px;
+
+}
+
+button{
+    border: 1px black solid;
+    transition: 0.3s;
+    background-color: pink;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#generate:hover{
+    background-color: black;
+    color: pink;
+    cursor: pointer;
+}
